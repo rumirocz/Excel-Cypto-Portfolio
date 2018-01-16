@@ -1,7 +1,8 @@
 # Excel-Cypto-Portfolio
 
 The portfolio I created uses one call to get the entire CoinMarketCap.com ticker and updates your specific coins in your portfolio at times you can set. You can access this from downloading the file "samplePortfolio.xlsm". This file is a macro-enabled Excel spreedsheet. You can download it and alter the data as you see fit. As most won't want to open an untrusted macro-enable file, below are instructions on how to create you own portfolio.
-There is another Excel example on Reddit that I first thought of using, however it forces you to create a query for every single coin you have in your portfolio. If you have dozens or hundreds of coins, this becomes very tedious, and uses alot of overhead when refreshing. You can't just use the full ticker either, the script is required. If you like a cell to the full ticker, when the market caps change, the ranks do as well, and then your cell is linked to a different coin altogether. So use the script. There is also a Google Sheets version of this that someone else made. Much simpler, but Excel has many more options and formatting options than Google Sheets does.
+
+There is another Excel example on Reddit that I first thought of using, however it forces you to create a query for every single coin you have in your portfolio. If you have dozens or hundreds of coins, this becomes very tedious, and uses alot of overhead when refreshing. You can't just use the full ticker either, the script is required. If you like a cell to the full ticker, when the market caps change, the ranks do as well, and then your cell is linked to a different coin altogether. So use the script. There is also a Google Sheets version of this that someone else made. Much simpler, but Excel has many more options and formatting options than Google Sheets does. The link for the Google Sheets version is https://github.com/rathergood/Crypto-Currency-Price
 
 Instructions:
 
