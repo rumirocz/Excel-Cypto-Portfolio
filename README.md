@@ -10,9 +10,9 @@ Instructions:
 2) Open Visual Basic (On the Developer Ribbon or Alt+F11)
 3) Either import the file "coinModule.bas" to your VB Project or Create a new "Module" (renaming is not important) and copy all the text from "coinModule.bas" into the new module.
 4) Open the object "ThisWorkbook" in your VBAProject.
-5) In the first dropdown box, click on "Workbook".
-6) In the second dropdown box, click on "Open".
-7) Copy the data from the file "thisWorkbook.bas" into the private sub "Workbook_Open()".
+5) Copy the data from the file "thisWorkbook.bas" into the window for ThisWorkbook.
+6) This will populate two commands for the workbook.
+7) The first Open routine activates the recalculate function and timer and the BeforeClose routine activates the function to disable the timer.
 8) Save the modules and VB Project.
 9) In your workbook, click on the "Data" ribbon and click "Get Data From Web".
 10) In the dialog box, input "https://api.coinmarketcap.com/v1/ticker/?limit=0" and press OK. The Query Editor will open.
